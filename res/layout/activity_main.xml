@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_world" />
+ <apps>
+     <app>
+         <id>1</id>
+         <name>Google Maps</name>
+         <Version>1.0</Version>
+     </app>
+     <app>
+         <id>2</id>
+         <name>Chrome</name>
+         <Version>2.1</Version>
+     </app>
+     <app>
+         <id>3</id>
+         <name>Google play</name>
+         <Version>2.3</Version>
+     </app>
+ </apps>   
+
+</RelativeLayout>
